@@ -1,0 +1,16 @@
+name: "Dockstore WDL Action"
+description: "Set up Dockstore CLI and test WDL files"
+author: "GKS-AnVIL"
+inputs:
+  wdl_file:
+    description: "Path to the WDL file to test"
+    required: true
+outputs:
+  result:
+    description: "Test results"
+runs:
+  using: "docker"
+  image: "Dockerfile"
+  args:
+    - ${{ inputs.wdl_file }}
+    - ${{ inputs.test_parameters }}

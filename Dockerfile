@@ -1,7 +1,8 @@
 FROM ubuntu:20.04
 
 # Set up environment
-RUN apt-get update && \
+RUN DEBIAN_FRONTEND=noninteractive \
+    apt-get update && \
     apt-get install -y curl sudo && \
     apt-get clean
 

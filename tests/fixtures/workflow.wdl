@@ -12,10 +12,6 @@ task hello {
   output {
     File response = stdout()
   }
-
-  runtime {
-   docker: 'ubuntu:impish-20220105'
-  }
 }
 
 workflow test {

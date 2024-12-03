@@ -5,6 +5,9 @@ inputs:
   wdl_file:
     description: "Path to the WDL file to test"
     required: true
+  test_parameters:
+    description: "Path to JSON declaration of parameters for test arguments"
+    required: false
 outputs:
   result:
     description: "Test results"

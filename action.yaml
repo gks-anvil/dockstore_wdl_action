@@ -14,6 +14,8 @@ outputs:
 runs:
   using: "docker"
   image: "Dockerfile"
+  env:
+    DOCKSTORE_ROOT: true
   args:
     - ${{ inputs.wdl_file }}
     - ${{ inputs.test_parameters }}

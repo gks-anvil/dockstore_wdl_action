@@ -26,6 +26,7 @@ chmod +x ~/bin/dockstore
 export PATH=~/bin:$PATH
 
 # Configure Dockstore
+# this token is given in the README
 echo "Configuring Dockstore..."
 mkdir -p ~/.dockstore
 printf "token: 7cbe3ae2b3a703aa8a1ec26fe7e4b077e2723eb9401f0ed2887f6fa9144c62a2\nserver-url: https://dockstore.org/api\n" > ~/.dockstore/config

@@ -32,4 +32,4 @@ printf "token: 7cbe3ae2b3a703aa8a1ec26fe7e4b077e2723eb9401f0ed2887f6fa9144c62a2\
 
 # Run Dockstore
 echo "Running Dockstore workflow..."
-dockstore workflow launch --local-entry "$WDL_FILE" --json "$TEST_PARAMETERS" --config ./tests/fixtures/dockstore_config
+dockstore workflow launch --local-entry "$WDL_FILE" --json "$TEST_PARAMETERS" --config ~/.dockstore/config

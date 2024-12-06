@@ -12,5 +12,5 @@ jobs:
     - name: Run Dockstore WDL Action
       uses: ./
       with:
-        wdl_file: "workflow.wdl"
-        test_parameters: "parameters.json"
+        wdl_file: "tests/fixtures/workflow.wdl"
+        test_parameters: "tests/fixtures/parameters.json"

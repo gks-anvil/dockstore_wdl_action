@@ -1,4 +1,4 @@
-# WDL Test GitHub Action
+# WDL GitHub Actions Test Runner
 
 Run [local tests](https://docs.dockstore.org/en/latest/getting-started/getting-started-with-wdl.html#testing-locally) on WDL workflows in CI with GitHub Actions and Dockstore.
 

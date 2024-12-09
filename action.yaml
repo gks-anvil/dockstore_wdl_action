@@ -1,5 +1,5 @@
-name: "Dockstore WDL Action"
-description: "Set up Dockstore CLI and test WDL files"
+name: "WDL Test Runner"
+description: "Set up Dockstore CLI and run WDL workflow tests"
 author: "GKS-AnVIL"
 inputs:
   wdl_file:
